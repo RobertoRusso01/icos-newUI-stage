@@ -21,7 +21,7 @@
     > div.s-intro__content-btns
     > a:nth-child(2) {
     background-color: transparent;
-    color: white;
+    color: white !important;
   }
 }
 
