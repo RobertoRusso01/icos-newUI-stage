@@ -6,16 +6,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Beach Volley | Icos Sport Club</title>
+    
+
 
     <script>
       document.documentElement.classList.remove("no-js");
       document.documentElement.classList.add("js");
     </script>
+    
 
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="css/vendor.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <!-- favicons
     ================================================== -->
@@ -68,6 +73,8 @@
           <!-- end s-header__nav -->
         </div>
         <!-- end s-header__inner -->
+        
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       </header>
       <!-- end s-header -->
 
@@ -190,12 +197,12 @@
       <section id="about" class="s-about target-section">
         <div class="row s-about__content">
           <div class="column xl-12">
-            <div class="section-header" data-num="01">
-              <h2 class="text-display-title">Chi siamo.</h2>
+            <div class="section-header" data-aos="fade-down" data-aos-duration="1200"  data-num="01">
+              <h2 data-aos="fade-down" data-aos-duration="1600" class="text-display-title">Chi siamo.</h2>
             </div>
             <!-- end section-header -->
 
-            <p class="attention-getter">
+            <p  data-aos="fade-down" data-aos-duration="1600" class="attention-getter">
               All'Icos Sport Club, siamo dedicati a offrire un'esperienza di
               beach volley senza pari, fondata su passione, professionalità e un
               forte senso di comunità. Situati nel cuore di Tremestieri Etneo
@@ -203,18 +210,18 @@
               appassionati di tutti i livelli, dall'amatore al professionista.
             </p>
 
-            <p class="attention-getter">
+            <p  data-aos="fade-down" data-aos-duration="1600" class="attention-getter">
               La nostra struttura all’avanguardia, con un campo da beach volley
               di alta qualità e attrezzature moderne, è progettata per garantire
               le migliori condizioni di gioco e il massimo del comfort.
             </p>
 
-            <p class="attention-getter">
+            <p   data-aos="fade-down" data-aos-duration="1600"class="attention-getter">
               Offriamo eventi, tornei e attività che stimolano la competizione
               sana e favoriscono le relazioni personali e professionali.
             </p>
 
-            <p class="attention-getter">
+            <p   data-aos="fade-down" data-aos-duration="1600" class="attention-getter">
               Offriamo eventi, tornei e attività che stimolano la competizione
               sana e favoriscono le relazioni personali e professionali. Il
               nostro team di esperti è sempre a tua disposizione per garantire
@@ -270,15 +277,15 @@
       <section id="works" class="s-works target-section">
         <div class="row">
           <div class="column xl-12">
-            <div class="section-header" data-num="02">
-              <h2 class="text-display-title">Il nostro centro sportivo</h2>
+            <div class="section-header" data-aos="fade-down" data-aos-duration="1200" class="section-header" data-num="02">
+              <h2 class="section-header" data-aos="fade-down" data-aos-duration="1600" class="text-display-title">Il nostro centro sportivo</h2>
             </div>
             <!-- end section-header -->
           </div>
         </div>
 
         <div class="row folio-entries">
-          <div class="column entry">
+          <div data-aos="fade-right" data-aos-duration="1600" class="column entry">
             <a
               href="./images/folio/gallery/tizi.jpg"
               class="entry__link glightbox"
@@ -308,7 +315,7 @@
           </div>
           <!-- entry -->
 
-          <div class="column entry">
+          <div data-aos="fade-left" data-aos-duration="1600"class="column entry">
             <a
               href="images/folio/gallery/pupa.png"
               class="entry__link glightbox"
@@ -338,7 +345,7 @@
           </div>
           <!-- entry -->
 
-          <div class="column entry">
+          <div data-aos="fade-right" data-aos-duration="1600" class="column entry">
             <a
               href="images/folio/gallery/tramonto.png"
               class="entry__link glightbox"
@@ -368,7 +375,7 @@
           </div>
           <!-- entry -->
 
-          <div class="column entry">
+          <div data-aos="fade-left" data-aos-duration="1600" class="column entry">
             <a
               href="images/folio/gallery/pallone.png"
               class="entry__link glightbox"
@@ -398,7 +405,7 @@
           </div>
           <!-- entry -->
 
-          <div class="column entry">
+          <div data-aos="fade-right" data-aos-duration="1600" class="column entry">
             <a
               href="images/folio/gallery/beach-nice.png"
               class="entry__link glightbox"
@@ -428,7 +435,7 @@
           </div>
           <!-- entry -->
 
-          <div class="column entry">
+          <div data-aos="fade-left" data-aos-duration="1600" class="column entry">
             <a
               href="images/folio/gallery/tizia2.png"
               class="entry__link glightbox"
@@ -749,5 +756,8 @@
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+      AOS.init();
+    </script> 
   </body>
 </html>
