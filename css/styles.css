@@ -4143,7 +4143,7 @@ td:last-child {
   align-items: center;
   font-family: var(--font-1);
   font-weight: 700;
-  font-size: 70px;
+  font-size: 63px;
   letter-spacing: -0.035em;
   line-height: 1;
   color: var(--color-3-dark);
@@ -4160,7 +4160,7 @@ td:last-child {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1000px) {
   .counter-items .num {
-    font-size: 70px;
+    font-size: 75px;
   }
 }
 
