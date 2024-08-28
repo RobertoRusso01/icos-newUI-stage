@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+#intro
+  > div.row.s-intro__content.width-sixteen-col
+  > div
+  > div
+  > div.s-intro__content-btns
+  > a:nth-child(2) {
+  background-color: transparent;
+  color: black;
+}
+#intro > div.s-intro__btn-download > a {
+  background-color: transparent;
+  color: white;
+}
+
 /* =================================================================== 
  * Hudson Main Stylesheet
  * Template Ver. 1.0.0
